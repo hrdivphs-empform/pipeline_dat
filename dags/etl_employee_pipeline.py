@@ -6,7 +6,7 @@ from airflow.utils.task_group import TaskGroup
 from datetime import datetime
 import requests
 
-SOURCE_API = "https://emp-form-project.onrender.com/api/employees"
+SOURCE_API = "https://emp-form-phs.onrender.com/api/employees"
 
 def extract_api():
     response = requests.get(SOURCE_API)
